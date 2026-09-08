@@ -1,12 +1,12 @@
 # Spectro-Bee
 
-Spectro-Bee is a hardware + ML project for precision agriculture designed to help farmers detect plant stress and disease early. It combines drone-based multispectral imaging (NIR and Red bands) with solar-powered ground sensor nodes that monitor soil, water and weather parameters. All data is fused and processed by a machine learning pipeline to predict plant disease and provide actionable alerts before visible symptoms appear.
+Spectro-Bee is a hardware + ML project for precision agriculture designed to help farmers detect plant stress and disease . It combines drone-based multispectral imaging (NIR and Red bands) with solar-powered ground sensor nodes that monitor soil, water and weather parameters. All data is fused and processed by a machine learning pipeline to predict plant disease and provide actionable alerts before visible symptoms appear.
 
 ## Key Features
 
-- Drone-mounted multispectral camera capturing NIR and Red bands to compute vegetation indices (e.g., NDVI, chlorophyll indices).
+- Drone-mounted multispectral camera capturing NIR and Red bands to compute vegetation indices (NDVI, chlorophyll indices).
 - Solar-powered ground nodes measuring soil pH, electrical conductivity (nutrients), moisture, water quality, and local weather (temperature, humidity, rainfall, wind).
-- Low-power wireless connectivity for ground nodes (LoRaWAN / NB-IoT / Wi-Fi — configurable depending on deployment).
+- Low-power wireless connectivity for ground nodes (LoRa/ Wi-Fi — configurable depending on deployment).
 - Central gateway that aggregates drone imagery and sensor telemetry.
 - ML model that fuses spectral and ground sensor data to predict plant disease risk and detect anomalies.
 - Dashboard and notification system to alert farmers with early warnings and field maps.
